@@ -1,0 +1,31 @@
+
+/* For Tablet layout */
+
+@media only screen and (min-width:200px) and (max-width:991px){
+    .mean-container .mean-nav { width: 80%;}
+    .mean-container .mean-nav ul li a {padding: 5px 5%;}
+    .mean-container .mean-nav ul li p { padding-left: 33px;margin-bottom: 0;}
+    .logo_area {width: 250px;float: none;text-align: center;margin: 0 auto;}
+    #quote_area {margin: 0;}
+    .inner_quote h2 {font-size: 22px;margin: 0;}
+    #hero_area {padding-bottom: 0;}
+    .child_work {width: 98%;}
+
+}
+
+/* For Mobile layout */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    #top_header_area {padding: 15px 0;}
+    .contact_area {width: 100%;}
+    .contact_area ul li {width: 100%;text-align: left; float: none; padding: 0;}
+    .contact_area ul li a {display: inline-block;float: none;font-size: 14px;}
+    .search_area {float: none;width: 250px;margin: 0 auto;}
+    .inner_quote h2 {font-size: 16px;}
+    #hero_area {padding-bottom: 0;margin-top: 20px;}
+    .child_hero {width: 96%;}
+    #work_area {padding: 20px 0;width: 100%;}
+    .service_area,.child_team,.child_footer {width: 96%;}
+    .left_copyright{width: 100%;}
+    .right_copyright {float: none;width: 100%;text-align: left;}
+}
